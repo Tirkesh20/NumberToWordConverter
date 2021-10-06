@@ -1,4 +1,4 @@
-package by.jazzteamtz.exceptions;
+package by.jazzteamtz.numberToStringConverter.exceptions;
 
 public class IllegalArgumentException extends Exception {
 

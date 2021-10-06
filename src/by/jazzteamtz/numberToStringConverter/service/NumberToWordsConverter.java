@@ -1,6 +1,6 @@
-package by.jazzteamtz.service;
+package by.jazzteamtz.numberToStringConverter.service;
 
-import by.jazzteamtz.exceptions.IllegalArgumentException;
+import by.jazzteamtz.numberToStringConverter.exceptions.IllegalArgumentException;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;

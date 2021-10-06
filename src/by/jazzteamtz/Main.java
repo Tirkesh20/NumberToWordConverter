@@ -1,7 +1,7 @@
 package by.jazzteamtz;
 
-import by.jazzteamtz.exceptions.IllegalArgumentException;
-import by.jazzteamtz.service.NumberToWordsConverter;
+import by.jazzteamtz.numberToStringConverter.exceptions.IllegalArgumentException;
+import by.jazzteamtz.numberToStringConverter.service.NumberToWordsConverter;
 
 import java.io.IOException;
 import java.math.BigInteger;

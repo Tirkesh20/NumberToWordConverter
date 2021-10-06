@@ -1,4 +1,4 @@
-import by.jazzteamtz.service.NumberToWordsConverter;
+import by.jazzteamtz.numberToStringConverter.service.NumberToWordsConverter;
 import org.junit.Test;
 
 import java.math.BigInteger;

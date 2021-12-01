@@ -1,4 +1,4 @@
-import by.jazzteamtz.numberToStringConverter.service.NumberToWordsConverter;
+import by.jazzteamtz.numberToStringConverter.service.DefaultNumberToWordsConverter;
 import org.junit.Test;
 
 import java.math.BigInteger;
@@ -6,7 +6,7 @@ import java.math.BigInteger;
 import static org.junit.Assert.assertEquals;
 
 public class NewConverterNumToWordsTest {
-    private final NumberToWordsConverter Converter = new NumberToWordsConverter();
+    private final DefaultNumberToWordsConverter Converter = new DefaultNumberToWordsConverter();
 
     private final String[][] testNumber = {{"0", "ноль"}, {"1", "один"},
             {"2", "два"}, {"5", "пять"}, {"15", "пятнадцать"},

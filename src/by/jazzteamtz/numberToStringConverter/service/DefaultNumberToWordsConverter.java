@@ -11,10 +11,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-public class NumberToWordsConverter {
+public class DefaultNumberToWordsConverter implements NumberToWordConverter {
     private boolean FLAG_READER = false;
-    private final String PATH_FILE_UNITS = "dataName/nameUnits.txt";
-    private final String PATH_FILE_TRIADS = "dataName/nameTriads.txt";
+    private final String PATH_FILE_UNITS = "resources/dataName/nameUnits.txt";
+    private final String PATH_FILE_TRIADS = "resources/dataName/nameTriads.txt";
     private final static int MALE_GENDER = 1;
     private final static int FEMALE_GENDER = -1;
     private final static String SEPARATOR = " ";

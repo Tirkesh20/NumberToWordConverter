@@ -1,4 +1,4 @@
-import by.jazzteamtz.numberToStringConverter.service.NumberToWordsConverter;
+import by.jazzteamtz.numberToStringConverter.service.DefaultNumberToWordsConverter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 
 public class ConverterNumToWordsFromTextFileTest {
     private BufferedReader br = null;
-    private NumberToWordsConverter converter = new NumberToWordsConverter();
+    private final DefaultNumberToWordsConverter converter = new DefaultNumberToWordsConverter();
 
     @Before
     public void setUp() throws Exception {
